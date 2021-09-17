@@ -1,0 +1,12 @@
+.card {
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+
+  &_selected {
+    border: 2px solid #0070C8;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+}

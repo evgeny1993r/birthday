@@ -1,0 +1,22 @@
+.card-list {
+  display: grid;
+  row-gap: 5px;
+  margin-right: 10px;
+
+  &__help-text {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--color-text-secondary);
+  }
+
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 78px;
+    column-gap: 30px;
+  }
+}

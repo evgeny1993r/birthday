@@ -1,0 +1,15 @@
+.button {
+  width: max-content;
+  padding: 5px 20px;
+  border-radius: 4px;
+  background: var(--background-button);
+  color: var(--color-text-button);
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
